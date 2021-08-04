@@ -24,7 +24,7 @@ export class Page2 implements OnInit {
       window.dataLayer = window.dataLayer || [];
       function gtag(){window.dataLayer.push(arguments);}
       gtag('js', new Date());
-    
+
       gtag('config', 'G-MT32PFCVBC');
     `;
     document.getElementsByTagName('head')[0].appendChild(node2);
@@ -36,5 +36,11 @@ export class Page2 implements OnInit {
     node3.type = 'text/javascript';
     node3.charset = 'utf-8';
     document.getElementsByTagName('head')[0].appendChild(node3);
+  }
+
+  signUp():void{
+    const a = document.createElement("a");
+    a.href = "https://www.shop8home.com/signup?utm_source=Boost&utm_medium=Boost+&utm_campaign=Boost_SMO&utm_id=Boost&utm_term=dec&utm_content=Boost";
+    a.click();
   }
 }
