@@ -3,12 +3,13 @@
   width: 27% !important;
   height: 10% !important;
   height: 100px !important;
-  bottom: 180px !important;
+  bottom: 140px !important;
   padding-right: 20%;
   position: relative;
   border-radius: 8px;
   border: none !important;
-  left: 16% !important;
+  left: 36% !important;
+  /* top: 30%; */
 }
 .promo-banner{
   width: 100% !important;
@@ -16,22 +17,20 @@
 }
 @media screen and (max-width: 1200px) {
   .promo-banner-btn{
-    background-color:transparent !important;
-    width: 15% !important;
-    height: 10% !important;
-    height: 60px !important;
-    bottom: 110px !important;
+    width: 26% !important;
+    height: 13% !important;
+    height: 80px !important;
+    bottom: 120px !important;
     padding-right: 20%;
     position: relative;
     border-radius: 8px;
     border: none !important;
-    left: 16% !important;
+
   }
 }
 
 @media screen and (max-width: 1000px) {
   .promo-banner-btn{
-    background-color:transparent !important;
     width: 27% !important;
     height: 10% !important;
     height: 60px !important;
@@ -40,21 +39,19 @@
     position: relative;
     border-radius: 8px;
     border: none !important;
-    left: 16% !important;
+
   }
 }
 
 @media screen and (max-width: 700px) {
   .promo-banner-btn{
-    background-color:transparent !important;
     width: 27% !important;
     height: 10% !important;
     height: 40px !important;
-    bottom: 48px !important;
+    bottom: 58px !important;
     padding-right: 20%;
     position: relative;
     border-radius: 8px;
     border: none !important;
-    left: 16% !important;
   }
 }
